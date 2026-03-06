@@ -84,7 +84,7 @@ El proyecto utiliza las siguientes librerías de Python. Puedes instalarlas toda
    cd analisis-TelecomX_LATAM_parte_2
    
 ---
-#🚀 5. Instrucciones para Ejecutar el Notebook
+# 🚀 5. Instrucciones para Ejecutar el Notebook
 Para reproducir este análisis de forma exitosa, sigue estos pasos:
 
 Preparar el entorno:
@@ -107,7 +107,7 @@ Interpretación de Resultados:
 
 Al final del notebook encontrarás las gráficas de Importancia de Variables. Estas visualizaciones explican matemáticamente por qué el modelo toma sus decisiones.
 
--#📁 Estructura del Proyecto
+# 📁 Estructura del Proyecto
 /data: Datasets originales y procesados.
 
 /notebooks: Notebook principal con el flujo de Ciencia de Datos.
