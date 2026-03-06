@@ -65,4 +65,57 @@ El modelo de **Regresión Logística** fue seleccionado como el ganador debido a
 * `README.md`: Documentación estratégica del proyecto.
 
 ---
+
+## 🛠️ Requisitos e Instalación
+
+### Bibliotecas Necesarias
+El proyecto utiliza las siguientes librerías de Python. Puedes instalarlas todas ejecutando el comando `pip` que se encuentra en la sección de instalación:
+
+* **Manipulación de Datos:** `pandas`, `numpy`
+* **Machine Learning:** `scikit-learn`
+* **Balanceo de Datos:** `imbalanced-learn` (para el algoritmo SMOTE)
+* **Visualización:** `matplotlib`, `seaborn`
+* **Procesamiento de Archivos:** `json`
+
+### Instalación y Configuración
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/analisis-TelecomX_LATAM_parte_2.git](https://github.com/tu-usuario/analisis-TelecomX_LATAM_parte_2.git)
+   cd analisis-TelecomX_LATAM_parte_2
+   
+---
+🚀 5. Instrucciones para Ejecutar el Notebook
+Para reproducir este análisis de forma exitosa, sigue estos pasos:
+
+Preparar el entorno:
+
+Abre el archivo TelecomX_LATAM.ipynb en Google Colab o Jupyter Notebook.
+
+Cargar los Datos:
+
+Asegúrate de que el archivo de datos (TelecomX_Data.json o datos_limpios_p1.csv) esté ubicado en la carpeta /data del proyecto.
+
+Si usas Google Colab, asegúrate de haber montado tu Drive o subido los archivos a la sesión actual.
+
+Ejecución de Celdas:
+
+Ejecuta las celdas en orden secuencial (Shift + Enter).
+
+La sección de Preprocesamiento es vital; no saltes las celdas de balanceo y escalado.
+
+Interpretación de Resultados:
+
+Al final del notebook encontrarás las gráficas de Importancia de Variables. Estas visualizaciones explican matemáticamente por qué el modelo toma sus decisiones.
+
+📁 Estructura del Proyecto
+/data: Datasets originales y procesados.
+
+/notebooks: Notebook principal con el flujo de Ciencia de Datos.
+
+README.md: Documentación estratégica.
+
+requirements.txt: Archivo de dependencias del sistema.
+
+---
+
 **Desarrollado por:** Emanuel Suarez Merino – Analista de Datos / Ingeniero de Sistemas.
