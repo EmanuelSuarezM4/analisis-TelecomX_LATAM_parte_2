@@ -11,7 +11,8 @@ Se realizó un estudio de las variables para entender el comportamiento de los d
 ### Matriz de Correlación
 Identificamos que la **Fibra Óptica** (+0.32) y los **Cargos Mensuales** (+0.23) son los principales impulsores de la evasión, mientras que la **Antigüedad** (-0.41) y los **Contratos a largo plazo** (-0.41) son los anclajes de retención más fuertes.
 
-![Matriz de Correlación](image_2ff48b.png)
+<img width="1403" height="1116" alt="image" src="https://github.com/user-attachments/assets/b03f6af9-4c06-4e34-9a81-1c6ef11bd0ed" />
+
 
 ### Comportamiento de Antigüedad y Gasto
 Los clientes que cancelan suelen hacerlo dentro de los primeros **10 meses** de servicio. Además, existe un segmento de clientes de alto valor (Outliers en cargos totales) que están abandonando la compañía.
