@@ -17,7 +17,8 @@ Identificamos que la **Fibra Óptica** (+0.32) y los **Cargos Mensuales** (+0.23
 ### Comportamiento de Antigüedad y Gasto
 Los clientes que cancelan suelen hacerlo dentro de los primeros **10 meses** de servicio. Además, existe un segmento de clientes de alto valor (Outliers en cargos totales) que están abandonando la compañía.
 
-![Distribución de Antigüedad y Cargos](image_258347.png)
+<img width="1584" height="583" alt="image" src="https://github.com/user-attachments/assets/a6213d46-35bb-42ca-8b0b-795776ac541d" />
+
 
 ---
 
@@ -28,8 +29,6 @@ Para garantizar que los modelos aprendan de forma equilibrada y sin sesgos de ma
 * **Balanceo de Clases (SMOTE):** Se generaron muestras sintéticas para equilibrar la clase minoritaria (Evasión), que representaba originalmente el **26.58%** de los datos.
 * **Estandarización:** Se utilizó `StandardScaler` para normalizar variables como `Cargos_Totales`, asegurando que los modelos basados en distancia y optimización no se vean sesgados por la escala.
 * **División Estratificada:** El dataset se dividió en **80% Entrenamiento (5,625 muestras)** y **20% Prueba (1,407 muestras)**, manteniendo la proporción original de evasión en ambos conjuntos.
-
-![Resumen de División de Datos](image_256903.png)
 
 ---
 
@@ -47,7 +46,8 @@ Se evaluaron dos modelos con naturalezas distintas para encontrar el equilibrio 
 ### Matrices de Confusión
 El modelo de **Regresión Logística** fue seleccionado como el ganador debido a su capacidad superior para detectar el **70% de las evasiones reales** (Recall), reduciendo significativamente los falsos negativos en comparación con el Random Forest.
 
-![Evaluación de Modelos](image_24f1b8.png)
+<img width="388" height="988" alt="image" src="https://github.com/user-attachments/assets/42c26be0-d2fe-4aa5-8bc9-4c3306644038" />
+
 
 ---
 
