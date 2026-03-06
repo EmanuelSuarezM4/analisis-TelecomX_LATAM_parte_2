@@ -84,30 +84,30 @@ El proyecto utiliza las siguientes librerías de Python. Puedes instalarlas toda
    cd analisis-TelecomX_LATAM_parte_2
    
 ---
-🚀 5. Instrucciones para Ejecutar el Notebook
+#🚀 5. Instrucciones para Ejecutar el Notebook
 Para reproducir este análisis de forma exitosa, sigue estos pasos:
 
 Preparar el entorno:
 
-Abre el archivo TelecomX_LATAM.ipynb en Google Colab o Jupyter Notebook.
+* Abre el archivo TelecomX_LATAM.ipynb en Google Colab o Jupyter Notebook.
 
 Cargar los Datos:
 
-Asegúrate de que el archivo de datos (TelecomX_Data.json o datos_limpios_p1.csv) esté ubicado en la carpeta /data del proyecto.
+* Asegúrate de que el archivo de datos (TelecomX_Data.json o datos_limpios_p1.csv) esté ubicado en la carpeta /data del proyecto.
 
-Si usas Google Colab, asegúrate de haber montado tu Drive o subido los archivos a la sesión actual.
+* Si usas Google Colab, asegúrate de haber montado tu Drive o subido los archivos a la sesión actual.
 
 Ejecución de Celdas:
 
-Ejecuta las celdas en orden secuencial (Shift + Enter).
+* Ejecuta las celdas en orden secuencial (Shift + Enter).
 
-La sección de Preprocesamiento es vital; no saltes las celdas de balanceo y escalado.
+* La sección de Preprocesamiento es vital; no saltes las celdas de balanceo y escalado.
 
 Interpretación de Resultados:
 
 Al final del notebook encontrarás las gráficas de Importancia de Variables. Estas visualizaciones explican matemáticamente por qué el modelo toma sus decisiones.
 
-📁 Estructura del Proyecto
+-#📁 Estructura del Proyecto
 /data: Datasets originales y procesados.
 
 /notebooks: Notebook principal con el flujo de Ciencia de Datos.
